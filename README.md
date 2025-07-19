@@ -1,18 +1,49 @@
 # 📈 Directional Prediction of Stock Indexes: DJIA vs. Russell 2000 Using Econometric and Machine Learning Models
 
-This project analyzes and forecasts the **directional movement** (up/down) of two major U.S. stock indexes — the **Dow Jones Industrial Average (DJIA)** and the **Russell 2000 (RUT)** — using **econometric models** (Logit, Probit) and **machine learning algorithms** (Random Forest, SVM). The dataset spans from February 1999 to December 2019, and incorporates both macroeconomic and market-based predictors.
----
-
-## 🧠 Project Summary
-
-- **Time Period**: February 1999 – December 2019  
-- **Target Variables**:
-  - `dji` = 1 if DJIA return is positive, 0 otherwise
-  - `rti` = 1 if RUT return is positive, 0 otherwise
-- **Approaches Used**:
-  - Econometric Models: Logistic Regression, Probit Regression (with and without lag terms)
-  - Machine Learning: Random Forest (basic and depth-based), Support Vector Machine (SVM)
-- **Outcome**: Suggested trading strategy using directional forecasts and macroeconomic indicators.
+This project investigates the **directional forecasting** (up/down movement) of two major stock indices — **Dow Jones Industrial Average (DJIA)** and **Russell 2000 (RUT)** — using **Logit/Probit regression** and **machine learning models** such as **Random Forest** and **Support Vector Machines (SVM)**.
 
 ---
+
+## 🧾 Table of Contents
+
+- [Project Overview](#project-overview)
+- [Project Structure](#project-structure)
+- [How to Run](#how-to-run)
+- [Key Results](#key-results)
+- [Investment Strategy](#investment-strategy)
+- [Conclusion](#conclusion)
+- [References](#references)
+
+---
+
+## 📌 Project Overview
+
+- **Timeframe**: February 1999 – December 2019  
+- **Goal**: Predict whether the DJIA or RUT index will go up or down in the next quarter using macroeconomic variables.
+- **Models Used**:
+  - Logistic & Probit Regressions (autoregressive and simple)
+  - Random Forest Classifier
+  - Support Vector Machine (SVM)
+
+- **Evaluation Metrics**: 
+  - Test Accuracy
+  - Cross-Validation Accuracy
+  - Confusion Matrix
+  - Feature Importance
+  - Strategy Simulation
+
+---
+
+## 🗂️ Project Structure
+
+Refer to the project tree above for folders like `data`, `notebooks`, `models`, `results`, and `reports`. Each part of the pipeline is modular and designed for reproducibility.
+
+---
+
+## ⚙️ How to Run
+
+1. **Install dependencies:**
+
+```bash
+pip install -r requirements.txt
 
