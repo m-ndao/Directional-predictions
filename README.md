@@ -39,7 +39,7 @@ DJIA_RUT_Directional_Prediction/
 ├── src/                    # Python scripts for modular execution
 ├── requirements.txt
 └── README.md
-🔑 Key Results
+🔑 **Key Results**
 Model	DJIA Accuracy (Test)	DJIA CV Accuracy	RUT Accuracy (Test)	RUT CV Accuracy
 Logit/Probit (Auto)	72%	62%	66%	63%
 Logit/Probit + Recession	65%	↓ from 67%	≈ no change	≈ no change
@@ -48,9 +48,10 @@ Random Forest (no Rec.)	61%	53%	65%	50%
 SVM (w/ Rec.)	69%	60%	71%	61%
 SVM (no Rec.)	62%	60%	61%	61%
 
-📌 Observation: While test accuracy was relatively high, most models showed signs of overfitting, especially Random Forest when evaluated with cross-validation.
+📌 **Observation**
+While test accuracy was relatively high, most models showed signs of overfitting, especially Random Forest when evaluated with cross-validation.
 
-💸 Investment Strategy
+💸 **Investment Strategy**
 Based on model forecasts and findings from the financial literature, the following multi-step investment strategy is proposed:
 
 Buy the RUT index when a positive signal is forecasted.
@@ -65,14 +66,14 @@ Hold for 1 full year based on its long-term predictability.
 
 Use quarterly forecast updates to decide reallocations.
 
-🧠 Chen et al. (2006) Extension:
+🧠 **Chen et al. (2006) Extension:**
 
 Buy newly added RUT stocks on the last trading day of May.
 
 Sell deleted RUT stocks on the last trading day of August.
 This method helps reduce exposure to tracker error and anticipates short-term excess returns.
 
-🧠 Discussion & Evaluation
+🧠 **Discussion & Evaluation**
 Overfitting was a major concern. While many models performed well on the test set, their cross-validation accuracy dropped significantly, especially for Random Forest.
 
 The recession indicator boosted performance in machine learning models but reduced performance in econometric ones.
@@ -89,7 +90,7 @@ RUT has higher short-term returns but also greater volatility.
 
 DJIA provides more consistent long-term gains.
 
-✅ Conclusion
+✅ **Conclusion**
 This study compared econometric and machine learning models for forecasting the directional returns of the DJIA and RUT indexes. Key takeaways include:
 
 Econometric models (Logit/Probit) offer moderate and reliable accuracy (~62%).
