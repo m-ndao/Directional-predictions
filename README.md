@@ -1,6 +1,6 @@
 # 📈 Directional Prediction of Stock Indexes: DJIA vs. Russell 2000 Using Econometric and Machine Learning Models
 
-This project investigates the **directional forecasting** (up/down movement) of two major stock indices — **Dow Jones Industrial Average (DJIA)** and **Russell 2000 (RUT)** — using **Logit/Probit regression** and **machine learning models** such as **Random Forest** and **Support Vector Machines (SVM)**.
+This project investigates the **directional forecasting** (up/down movement) of two major stock indices — **Dow Jones Industrial Average (DJIA)** and **Russell 2000 (RUT)** — using **Logit/Probit regression** and **machine learning models** such as **Random Forest** and **Support Vector Machines (SVM)**. models comprised
 
 
 ---
